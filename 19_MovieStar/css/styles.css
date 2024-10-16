@@ -1,0 +1,22 @@
+body {
+    background-color: #CCC;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#logo {
+    height: 160px; /* 4 vezes maior */
+    margin-right: 10px;
+}
+
+#moviestar-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right; /* Alinha o texto à direita */
+    flex-grow: 1; /* Permite que o título ocupe o espaço restante à direita */
+}
